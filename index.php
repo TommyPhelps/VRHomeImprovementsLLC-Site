@@ -76,14 +76,17 @@
 	    </div>
 	</div>
 
-	<div class="contact-container">
-	    <h2>Get in touch</h2>
-	    <form>
-		<input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
-		<input type="text" name="email" placeholder="Your email" class="contact-inputs" required>
-		<input name="message" placeholder="Your message" class="contact-inputs" required>
-		<button type="submit">Submit</button>
-	    </form>
-	</div>
+	<main>
+	    <div class="contact-container">
+		<h2>Get in touch</h2>
+		<form class="contact-form" action"contactForm.php" method="post">
+		    <input type="text" name="name" placeholder="Your name" required>
+		    <input type="text" name="email" placeholder="Your email" required>
+		    <input type="text" name="subject" placeholder="Subject">
+		    <input name="message" placeholder="Your message" required>
+		    <button type="submit" name="Submit">Send</button>
+		</form>
+	    </div>
+	</main>
     </body>
 </html>
