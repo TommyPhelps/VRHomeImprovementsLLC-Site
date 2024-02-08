@@ -10,7 +10,7 @@
     <body>
 	<nav>
 	    <div class="logo-container">
-		Logo
+		<a href=""><img src="images/company-logo.jpg" alt="A company logo with company initials next to a house"></a>
 	    </div>
 
 	    <div class="links-container">
