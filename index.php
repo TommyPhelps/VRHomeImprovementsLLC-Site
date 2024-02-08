@@ -22,13 +22,13 @@
 	    </div>
 	</nav>
 
-	<div class="Hero">
+	<div class="hero">
 	    <h1>Welcome to VR Home Improvements LLC - Elevating Homes and Spaces in Oklahoma</h1>
 
 	    <p>Embark on a journey of unparalleled craftsmanship with VR Home Improvements LLC, your trusted partner for comprehensive construction services in Oklahoma. From groundbreaking ideas to structurally sound implementations, we bring dreams to life through meticulous construction and home improvement services.</p>
 	</div>
 
-	<div class="About">
+	<div class="about">
 	    <h2>About Us</h2>
 	    <div>
 		<p>At VR Home Improvements LLC, we take pride in being the cornerstone of excellence in the construction industry in Oklahoma. With a commitment to quality, innovation, and client satisfaction, we have established ourselves as a reliable choice for all your home improvement needs.</p>
@@ -53,7 +53,7 @@
 	    </div>
 	</div>
 
-	<div class="Services">
+	<div class="services">
 	    <h2>Services</h2>
 	    <div>
 		<p>Framing</p>
