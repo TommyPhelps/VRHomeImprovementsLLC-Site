@@ -29,3 +29,13 @@ nav > div {
     display: flex;
     gap: 5px;
 }
+
+main {
+    display: flex;
+    min-width: 100%;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
