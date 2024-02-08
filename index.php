@@ -9,11 +9,11 @@
 
     <body>
 	<nav>
-	    <div id="Logo-Container">
+	    <div class="logo-container">
 		Logo
 	    </div>
 
-	    <div id="Links-Container">
+	    <div class="links-container">
 		<a href="">Home</a>
 		<a href="">About</a>
 		<a href="">Services</a>
