@@ -29,8 +29,8 @@
 	</div>
 
 	<div class="about">
-	    <h2>About Us</h2>
 	    <div>
+		<h2>About Us</h2>
 		<p>At VR Home Improvements LLC, we take pride in being the cornerstone of excellence in the construction industry in Oklahoma. With a commitment to quality, innovation, and client satisfaction, we have established ourselves as a reliable choice for all your home improvement needs.</p>
 
 		<p>Our team of skilled professionals possesses a wealth of experience in transforming spaces into havens of comfort and style. From concept to completion, we approach each project with unwavering dedication, ensuring that your vision is not just realized but exceeded.</p>
