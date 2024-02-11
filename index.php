@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
 	<title>VR Home Improvements LLC</title>
@@ -41,14 +40,22 @@
 	    <div>
 		<h3>Why Choose Us?</h3>
 		<ul>
-		    <li>Expertise and Experience:</li>
-		    <p>With years of experience in providing construction services in [Your City], VR Home Improvements LLC brings a wealth of knowledge and skills to every project.</p>
-		    <li>Quality Assurance:</li>
-		    <p>We adhere to the highest standards of craftsmanship, using premium materials to ensure the longevity and durability of our work, delivering top-notch home improvement solutions.</p>
-		    <li>Timely Delivery:</li>
-		    <p>Efficient project management ensures that your project is completed on schedule without compromising quality, offering prompt and reliable construction services.</p>
-		    <li>Client-Centric Approach:</li>
-		    <p>Your vision is our guide. We work closely with our clients, fostering open communication to ensure that every detail is considered, and expectations are met for a personalized home improvement experience.</p>
+		    <div>
+			<li>Expertise and Experience:</li>
+			<p>With years of experience in providing construction services in [Your City], VR Home Improvements LLC brings a wealth of knowledge and skills to every project.</p>
+		    </div>
+		    <div>
+			<li>Quality Assurance:</li>
+			<p>We adhere to the highest standards of craftsmanship, using premium materials to ensure the longevity and durability of our work, delivering top-notch home improvement solutions.</p>
+		    </div>
+		    <div>
+			<li>Timely Delivery:</li>
+			<p>Efficient project management ensures that your project is completed on schedule without compromising quality, offering prompt and reliable construction services.</p>
+		    </div>
+		    <div>
+			<li>Client-Centric Approach:</li>
+			<p>Your vision is our guide. We work closely with our clients, fostering open communication to ensure that every detail is considered, and expectations are met for a personalized home improvement experience.</p>
+		    </div>
 		</ul>
 	    </div>
 	</div>

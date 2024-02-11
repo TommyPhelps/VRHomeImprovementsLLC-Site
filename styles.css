@@ -5,8 +5,8 @@
 }
 
 html {
-    padding: 0 20%;
     background-color: #F8F4E3;
+    padding: 0 20%;
 }
 
 body {
@@ -48,12 +48,34 @@ img {
 }
 
 .hero {
-    padding: 20px 0;
+    padding: 20px 0 10px;
     font-size: 20px;
 }
 
 .hero > * {
     padding: 10px 0;
+}
+
+.about > div {
+    padding: 10px;
+}
+
+.about > div > ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px soild red;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.about > div > ul > div {
+    padding: 10px;
+    background-color: #DCD4D0;
+}
+
+.about > div > ul > div > li {
+    font-weight: bold;
 }
 
 main {
