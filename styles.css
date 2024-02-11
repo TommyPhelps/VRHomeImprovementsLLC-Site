@@ -13,6 +13,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 nav {
@@ -44,6 +45,15 @@ a:hover {
 
 img {
     width: 200px;
+}
+
+.hero {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.hero > * {
+    padding: 10px 0;
 }
 
 main {
