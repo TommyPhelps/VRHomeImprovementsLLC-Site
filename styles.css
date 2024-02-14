@@ -103,10 +103,12 @@ img {
     font-weight: bold;
 }
 
-main {
+main > div {
     display: flex;
-    min-width: 100%;
+    flex-direction: row;
+    align-items: center;
 }
+
 
 .contact-container form {
     display: flex;
