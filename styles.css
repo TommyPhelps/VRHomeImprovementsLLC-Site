@@ -66,7 +66,6 @@ img {
 .about > div > ul {
     display: flex;
     flex-direction: row;
-    border: 1px soild red;
     list-style: none;
     gap: 20px;
     padding: 10px 0;
@@ -79,6 +78,28 @@ img {
 }
 
 .about > div > ul > div > li {
+    font-weight: bold;
+}
+
+.services {
+    padding: 25px 0;
+}
+
+.services > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.services > ul > div {
+    padding: 10px;
+    background-color: #DCD4D0;
+}
+
+.services > ul > div > li {
     font-weight: bold;
 }
 
