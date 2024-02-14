@@ -87,8 +87,8 @@
 
 	<main>
 	    <div class="contact-container">
-		<h2>Get in touch</h2>
 		<div>
+		    <h2>Get in touch</h2>
 		    <h3>Give us a call</h3>
 		    <p>(918 649-0217</p>
 		    <h3>Our address</h3>
