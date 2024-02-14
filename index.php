@@ -88,13 +88,22 @@
 	<main>
 	    <div class="contact-container">
 		<h2>Get in touch</h2>
-		<form class="contact-form" action"contactForm.php" method="post">
-		    <input type="text" name="name" placeholder="Your name" required>
-		    <input type="text" name="email" placeholder="Your email" required>
-		    <input type="text" name="subject" placeholder="Subject">
-		    <input name="message" placeholder="Your message" required>
-		    <button type="submit" name="Submit">Send</button>
-		</form>
+		<div>
+		    <h3>Give us a call</h3>
+		    <p>(918 649-0217</p>
+		    <h3>Our address</h3>
+		    <p>Porter, OK</p>
+		</div>
+
+		<div>
+		    <form class="contact-form" action"contactForm.php" method="post">
+			<input type="text" name="name" placeholder="Your name" required>
+			<input type="text" name="email" placeholder="Your email" required>
+			<input type="text" name="subject" placeholder="Subject">
+			<input name="message" placeholder="Your message" required>
+			<button type="submit" name="Submit">Send</button>
+		    </form>
+		</div>
 	    </div>
 	</main>
     </body>
