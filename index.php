@@ -62,25 +62,27 @@
 
 	<div class="services">
 	    <h2>Services</h2>
-	    <div>
-		<p>Framing</p>
-		<p>Our framing services form the structural backbone of your project. Precision and attention to detail are at the forefront of our framing expertise, ensuring a solid foundation for the rest of the construction process.</p>
-	    </div>
+	    <ul>
+		<div>
+		    <li>Framing</li>
+		    <p>Our framing services form the structural backbone of your project. Precision and attention to detail are at the forefront of our framing expertise, ensuring a solid foundation for the rest of the construction process.</p>
+		</div>
 
-	    <div>
-		<p>Plumbing</p>
-		<p>Experience seamless functionality with our expert plumbing services. From installations to repairs, our skilled plumbers deliver solutions that stand up to the test of time, enhancing the efficiency and reliability of your plumbing systems.</p>
-	    </div>
+		<div>
+		    <li>Plumbing</li>
+		    <p>Experience seamless functionality with our expert plumbing services. From installations to repairs, our skilled plumbers deliver solutions that stand up to the test of time, enhancing the efficiency and reliability of your plumbing systems.</p>
+		</div>
 
-	    <div>
-		<p>Roofing</p>
-		<p>Protect your investment with our comprehensive roofing solutions. Whether it's repairs, installations, or replacements, our roofing specialists combine skill and quality materials to provide a shelter that stands strong against the elements.</p>
-	    </div>
+		<div>
+		    <li>Roofing</li>
+		    <p>Protect your investment with our comprehensive roofing solutions. Whether it's repairs, installations, or replacements, our roofing specialists combine skill and quality materials to provide a shelter that stands strong against the elements.</p>
+		</div>
 
-	    <div>
-		<p>Electrical</p>
-		<p>Illuminate your space with our electrical services. From wiring to installations, our electricians bring safety and innovation to every project, ensuring that your electrical systems meet modern standards.</p>
-	    </div>
+		<div>
+		    <li>Electrical</li>
+		    <p>Illuminate your space with our electrical services. From wiring to installations, our electricians bring safety and innovation to every project, ensuring that your electrical systems meet modern standards.</p>
+		</div>
+	    </ul>
 	</div>
 
 	<main>
