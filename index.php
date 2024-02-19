@@ -106,5 +106,10 @@
 		</div>
 	    </div>
 	</main>
+
+	<footer>
+		<p>VRHomeImprovements LLC</p>
+		<p>Where we help everyone with their needs.</p>
+	</footer>
     </body>
 </html>
