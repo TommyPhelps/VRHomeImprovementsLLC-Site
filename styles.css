@@ -51,6 +51,15 @@ img {
     padding: 10% 10%;
     font-size: 20px;
     text-align: center;
+    background-image: url("images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero > * {
+    background: rgba(128, 128, 128, .75);
+    padding: 20px;
 }
 
 
