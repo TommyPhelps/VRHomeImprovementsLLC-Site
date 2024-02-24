@@ -7,13 +7,13 @@
 
 html {
     background-color: #F8F4E3;
+    height: 100%
 }
 
 body {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    padding: 0 20%;
+    min-height: 100vh;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-width: 100%;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 nav > div {
@@ -48,8 +48,9 @@ img {
 }
 
 .hero {
-    padding: 0px 0 50px;
+    padding: 10% 10%;
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -58,7 +59,7 @@ img {
 }
 
 .about {
-    padding: 50px 0;
+    padding: 50px 10%;
 }
 
 .about > div > h3 {
@@ -84,7 +85,7 @@ img {
 }
 
 .services {
-    padding: 25px 0;
+    padding: 50px 10%;
 }
 
 .services > ul {
@@ -108,7 +109,8 @@ img {
 main > div {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
     gap: 200px;
 }
 
@@ -128,8 +130,9 @@ form button {
 
 footer {
     margin: 0;
-    padding: 25px;
+    padding: 50px 0;
     text-align: center;
     color: #FFFFFF;
     background-color: #2A2B2A;
+    flex-shrink: 0;
 }
