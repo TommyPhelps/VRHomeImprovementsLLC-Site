@@ -79,23 +79,23 @@
             <h2>Services</h2>
             <ul>
                 <div>
-                    <img src="images/framing.jpg" alt="framing">
                     <li>Framing</li>
+                    <img src="images/framing.jpg" alt="framing">
                 </div>
 
                 <div>
-                    <img src="images/plumbing.jpg" alt="plumbing">
                     <li>Plumbing</li>
+                    <img src="images/plumbing.jpg" alt="plumbing">
                 </div>
 
                 <div>
-                    <img src="images/roofing.jpg" alt="roofing">
                     <li>Roofing</li>
+                    <img src="images/roofing.jpg" alt="roofing">
                 </div>
 
                 <div>
-                    <img src="images/electrical.jpg" alt="electrical">
                     <li>Electrical</li>
+                    <img src="images/electrical.jpg" alt="electrical">
                 </div>
             </ul>
         </div>
@@ -121,9 +121,7 @@
 
         <footer>
             <div class="social-links">
-                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/vrhomeimprovementsllc/"><img src="images/facebook.png" alt="Facebook"></a>
             </div>
             <p>&copy; 2024 VR Home Improvements LLC. All rights reserved.</p>
         </footer>
