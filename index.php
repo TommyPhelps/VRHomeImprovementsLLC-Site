@@ -79,23 +79,23 @@
             <h2>Services</h2>
             <ul>
                 <div>
+                    <img src="images/framing.jpg" alt="framing">
                     <li>Framing</li>
-                    <p>Our framing services form the structural backbone of your project. Precision and attention to detail are at the forefront of our framing expertise, ensuring a solid foundation for the rest of the construction process.</p>
                 </div>
 
                 <div>
+                    <img src="images/plumbing.jpg" alt="plumbing">
                     <li>Plumbing</li>
-                    <p>Experience seamless functionality with our expert plumbing services. From installations to repairs, our skilled plumbers deliver solutions that stand up to the test of time, enhancing the efficiency and reliability of your plumbing systems.</p>
                 </div>
 
                 <div>
+                    <img src="images/roofing.jpg" alt="roofing">
                     <li>Roofing</li>
-                    <p>Protect your investment with our comprehensive roofing solutions. Whether it's repairs, installations, or replacements, our roofing specialists combine skill and quality materials to provide a shelter that stands strong against the elements.</p>
                 </div>
 
                 <div>
+                    <img src="images/electrical.jpg" alt="electrical">
                     <li>Electrical</li>
-                    <p>Illuminate your space with our electrical services. From wiring to installations, our electricians bring safety and innovation to every project, ensuring that your electrical systems meet modern standards.</p>
                 </div>
             </ul>
         </div>
@@ -103,20 +103,17 @@
         <main>
             <div class="contact-container" id="contact">
                 <div>
-                    <h2>Get in touch</h2>
-                    <h3>Give us a call</h3>
-                    <p>(918 649-0217</p>
-                    <h3>Our address</h3>
-                    <p>Porter, OK</p>
+                    <h2>Contact Us</h2>
+                    <p><strong>Address:</strong> Porter, OK</p>
+                    <p><strong>Phone:</strong> (918) 649-0217</p>
                 </div>
-
                 <div>
                     <form class="contact-form" action"contactForm.php" method="post">
-                    <input type="text" name="name" placeholder="Your name" required>
-                    <input type="text" name="email" placeholder="Your email" required>
-                    <input type="text" name="subject" placeholder="Subject">
-                    <input name="message" placeholder="Your message" required>
-                    <button type="submit" name="Submit">Send</button>
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <input type="text" name="subject" placeholder="Subject">
+                        <input name="message" placeholder="Your message" required>
+                        <button type="submit" name="Submit">Send</button>
                     </form>
                 </div>
             </div>
