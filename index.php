@@ -13,15 +13,14 @@
             </div>
 
             <div class="links-container">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Testimonial</a>
-            <a href="">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
             </div>
         </nav>
 
-        <div class="hero">
+        <div class="hero" id="home">
             <h1>Welcome to VR Home Improvements LLC - Elevating Homes and Spaces in Oklahoma</h1>
 
             <p>Embark on a journey of unparalleled craftsmanship with VR Home Improvements LLC, your trusted 
@@ -29,7 +28,7 @@
             sound implementations, we bring dreams to life through meticulous construction and home improvement services.</p>
         </div>
 
-        <div class="about">
+        <div class="about" id="about">
             <div>
                 <h2>About Us</h2>
                 <p>At VR Home Improvements LLC, we take pride in being the cornerstone of excellence in the construction 
@@ -76,7 +75,7 @@
             </div>
         </div>
 
-        <div class="services">
+        <div class="services" id="services">
             <h2>Services</h2>
             <ul>
                 <div>
@@ -102,7 +101,7 @@
         </div>
 
         <main>
-            <div class="contact-container">
+            <div class="contact-container" id="contact">
                 <div>
                     <h2>Get in touch</h2>
                     <h3>Give us a call</h3>
