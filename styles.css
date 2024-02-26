@@ -123,6 +123,11 @@ img {
     margin-bottom: 10px;
 }
 
+.services > ul > div > img {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
 main > div {
     display: flex;
     flex-direction: row;
