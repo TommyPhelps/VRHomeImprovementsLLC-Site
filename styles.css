@@ -5,15 +5,11 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: #F8F4E3;
-    height: 100%
-}
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -22,6 +18,7 @@ nav {
     align-items: center;
     min-width: 100%;
     padding: 20px;
+    background-color: #CCCCCC;
 }
 
 nav > div {
@@ -34,7 +31,7 @@ nav > div {
 }
 
 a {
-    color: #124E78;
+    color: #2978A0;
     font-weight: bold;
     text-decoration: none;
 }
@@ -64,10 +61,18 @@ img {
 
 .about {
     padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .about > div > h3 {
     padding: 10px 0 0;
+}
+
+.about > div > p {
+    margin-bottom: 10px;
 }
 
 .about > div > ul {
@@ -80,8 +85,9 @@ img {
 }
 
 .about > div > ul > div {
-    padding: 10px;
-    background-color: #DCD4D0;
+    padding: 20px;
+    background-color: #CCCCCC;
+    border-radius: 10px;
 }
 
 .about > div > ul > div > li {
@@ -89,7 +95,11 @@ img {
 }
 
 .services {
+    display: flex;
+    flex-direction: column;
     padding: 50px 10%;
+    background-color: #CCCCCC;
+    align-items: center;
 }
 
 .services > ul {
@@ -102,12 +112,15 @@ img {
 }
 
 .services > ul > div {
-    padding: 10px;
-    background-color: #DCD4D0;
+    padding: 20px;
+    background-color: #ED6624;
+    border-radius: 10px;
 }
 
 .services > ul > div > li {
     font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 main > div {
@@ -136,7 +149,7 @@ footer {
     padding: 50px 0;
     text-align: center;
     color: white;
-    background-color: #2A2B2A;
+    background-color: #272932;
 }
 
 .social-links > a {
