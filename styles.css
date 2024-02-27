@@ -18,7 +18,7 @@ nav {
     align-items: center;
     min-width: 100%;
     padding: 20px;
-    background-color: #CCCCCC;
+    background-color: #F1ECCE;
 }
 
 nav > div {
@@ -98,7 +98,6 @@ img {
     display: flex;
     flex-direction: column;
     padding: 50px 10%;
-    background-color: #CCCCCC;
     align-items: center;
 }
 
@@ -113,7 +112,7 @@ img {
 
 .services > ul > div {
     padding: 20px;
-    background-color: #ED6624;
+    background-color: #CCCCCC;
     border-radius: 10px;
 }
 
