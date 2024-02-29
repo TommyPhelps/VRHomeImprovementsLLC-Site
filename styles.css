@@ -67,8 +67,8 @@ img {
     text-align: center;
 }
 
-.about > div > h3 {
-    padding: 10px 0 0;
+.about > div > h3, .about > div > h2 {
+    padding-bottom: 10px;
 }
 
 .about > div > p {
