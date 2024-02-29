@@ -18,7 +18,7 @@ nav {
     align-items: center;
     min-width: 100%;
     padding: 20px;
-    background-color: #F1ECCE;
+    background-color: #EBEBEB;
 }
 
 nav > div {
@@ -46,7 +46,7 @@ img {
 
 .hero {
     padding: 10% 10%;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero-image.jpg");
     background-repeat: no-repeat;
@@ -80,14 +80,14 @@ img {
     flex-direction: row;
     list-style: none;
     gap: 20px;
-    padding: 10px 0;
     text-align: center;
 }
 
 .about > div > ul > div {
     padding: 20px;
-    background-color: #CCCCCC;
+    background-color: #E0E0E0;
     border-radius: 10px;
+    flex: 1;
 }
 
 .about > div > ul > div > li {
@@ -112,7 +112,7 @@ img {
 
 .services > ul > div {
     padding: 20px;
-    background-color: #CCCCCC;
+    background-color: #E0E0E0;
     border-radius: 10px;
 }
 
