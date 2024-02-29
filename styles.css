@@ -136,9 +136,11 @@ main > div {
 }
 
 
-.contact-container form {
+.contact-container > div > form {
     display: flex;
     flex-direction: column;
+    font-family: inherit;
+    font-size: 100%;
 }
 
 form button {
