@@ -113,7 +113,7 @@
                         <input type="text" name="name" placeholder="Your name" required>
                         <input type="text" name="email" placeholder="Your email" required>
                         <input type="text" name="subject" placeholder="Subject">
-                        <input name="message" placeholder="Your message" required>
+                        <textarea name="message" placeholder="Your message" required></textarea>
                         <button type="submit" name="Submit">Send</button>
                     </form>
                 </div>
