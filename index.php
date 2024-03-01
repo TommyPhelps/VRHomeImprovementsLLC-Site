@@ -100,6 +100,30 @@
             </ul>
         </div>
 
+        <div class="img-carousel">
+            <div class="slide">
+                <div class="img-pair">
+                    <img src="images/project1_before.jpg" alt="Project 1 Before">
+                    <img src="images/project1_after.jpg" alt="Project 1 After">
+                </div>
+                <div class="caption">Project 1 Before and After</div>
+            </div>
+            <div class="slide">
+                <div class="img-pair">
+                    <img src="images/project2_before.jpg" alt="Project 2 Before">
+                    <img src="images/project2_after.jpg" alt="Project 2 After">
+                </div>
+                <div class="caption">Project 2 Before and After</div>
+            </div>
+            <div class="slide">
+                <div class="img-pair">
+                    <img src="images/project3_before.jpg" alt="Project 3 Before">
+                    <img src="images/project3_after.jpg" alt="Project 3 After">
+                </div>
+                <div class="caption">Project 3 Before and After</div>
+            </div>
+        </div>
+
         <main class="contact-container" id="contact">
             <div>
                 <h2>Contact Us</h2>
