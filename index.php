@@ -100,23 +100,21 @@
             </ul>
         </div>
 
-        <main>
-            <div class="contact-container" id="contact">
-                <div>
-                    <h2>Contact Us</h2>
-                    <p><strong>Address:</strong> Porter, OK</p>
-                    <p><strong>Phone:</strong> (918) 649-0217</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12932.874787658571!2d-95.53081271532626!3d35.86815711043851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b670d5ad6532a9%3A0x77ba2b225e153aad!2sPorter%2C%20OK%2074454!5e0!3m2!1sen!2sus!4v1709185422350!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div>
-                    <form class="contact-form" action"contactForm.php" method="post">
-                        <input type="text" name="name" placeholder="Your name" required>
-                        <input type="text" name="email" placeholder="Your email" required>
-                        <input type="text" name="subject" placeholder="Subject">
-                        <textarea name="message" placeholder="Your message" required></textarea>
-                        <button type="submit" name="Submit">Send</button>
-                    </form>
-                </div>
+        <main class="contact-container" id="contact">
+            <div>
+                <h2>Contact Us</h2>
+                <p><strong>Address:</strong> Porter, OK</p>
+                <p><strong>Phone:</strong> (918) 649-0217</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12932.874787658571!2d-95.53081271532626!3d35.86815711043851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b670d5ad6532a9%3A0x77ba2b225e153aad!2sPorter%2C%20OK%2074454!5e0!3m2!1sen!2sus!4v1709185422350!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <form class="contact-form" action"contactForm.php" method="post">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="text" name="email" placeholder="Your email" required>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit" name="Submit">Send</button>
+                </form>
             </div>
         </main>
 
