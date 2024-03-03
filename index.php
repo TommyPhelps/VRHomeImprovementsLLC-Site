@@ -18,6 +18,7 @@
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -102,7 +103,7 @@
             </ul>
         </div>
 
-        <div class="img-carousel">
+        <div class="img-carousel" id="projects">
             <h2>Projects</h2>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
