@@ -109,32 +109,17 @@
                         <img class="w-50" src="images/project1_before.jpg" alt="First Project Before">
                         <img class="w-50" src="images/project1_after.jpg" alt="First Project After">
                     </div>
-
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Project 1</h5>
-                        <p>Project 1 before and after.</p>
-                    </div>
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
                         <img class="w-50" src="images/project2_before.jpg" alt="Second Project Before">
                         <img class="w-50" src="images/project2_after.jpg" alt="Second Project After">
                     </div>
-
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Project 2</h5>
-                        <p>Project 2 before and after.</p>
-                    </div>
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
                         <img class="w-50" src="images/project3_before.jpg" alt="Third Project Before">
                         <img class="w-50" src="images/project3_after.jpg" alt="Third Project After">
-                    </div>
-
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Project 3</h5>
-                        <p>Project 3 before and after.</p>
                     </div>
                 </div>
             </div>

@@ -138,7 +138,6 @@ img {
 
 #carouselExampleControls .carousel-item img {
     height: 800px;
-    max-width: 48%;
     object-fit: cover;
 }
 
