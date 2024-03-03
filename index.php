@@ -11,14 +11,14 @@
     <body>
         <nav>
             <div class="logo-container">
-            <a href=""><img src="images/company-logo.png" alt="A company logo with company initials next to a house"></a>
+                <a href=""><img src="images/company-logo.png" alt="A company logo with company initials next to a house"></a>
             </div>
 
             <div class="links-container">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
 
@@ -105,8 +105,10 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/project1_before.jpg" alt="First slide">
-                    <img class="d-block w-100" src="images/project1_after.jpg" alt="First slide">
+                    <div class="d-flex justify-content-center">
+                        <img class="w-50" src="images/project1_before.jpg" alt="First Project Before">
+                        <img class="w-50" src="images/project1_after.jpg" alt="First Project After">
+                    </div>
 
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Project 1</h5>
@@ -114,8 +116,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/project2_before.jpg" alt="First slide">
-                    <img class="d-block w-100" src="images/project2_after.jpg" alt="First slide">
+                    <div class="d-flex justify-content-center">
+                        <img class="w-50" src="images/project2_before.jpg" alt="Second Project Before">
+                        <img class="w-50" src="images/project2_after.jpg" alt="Second Project After">
+                    </div>
 
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Project 2</h5>
@@ -123,8 +127,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/project3_before.jpg" alt="First slide">
-                    <img class="d-block w-100" src="images/project3_after.jpg" alt="First slide">
+                    <div class="d-flex justify-content-center">
+                        <img class="w-50" src="images/project3_before.jpg" alt="Third Project Before">
+                        <img class="w-50" src="images/project3_after.jpg" alt="Third Project After">
+                    </div>
 
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Project 3</h5>

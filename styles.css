@@ -16,18 +16,19 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 100%;
     padding: 20px;
     background-color: #EBEBEB;
+    border: 1px solid red;
 }
 
-nav > div {
+.logo-container {
     display: flex;
+    align-items: center;
 }
 
 .links-container {
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 a {
@@ -127,12 +128,31 @@ img {
     border-radius: 10px;
 }
 
-main {
+#carouselExampleControls {
+    padding: 50px 10%;
+}
+
+#carouselExampleControls .carousel-item .d-flex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#carouselExampleControls .carousel-item img {
+    height: 800px;
+    max-width: 48%;
+}
+
+main.contact-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 50px 10%;
     gap: 200px;
+}
+
+.contact-container > div {
+    flex: 1;
+    max-width: 400px;
 }
 
 .contact-container > div > form {
@@ -142,12 +162,22 @@ main {
     font-size: 100%;
 }
 
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 form button {
     background-color: #ED6624;
-    padding: 5px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    color: white;
+    cursor: pointer;
 }
 
 footer {
