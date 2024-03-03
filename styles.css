@@ -135,39 +135,6 @@ main {
     gap: 200px;
 }
 
-.img-carousel {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    padding: 50px 10%;
-}
-
-.slide {
-    flex: 0 0 100%;
-    transition: transform 0.5s ease;
-}
-
-.img-pair {
-    display: flex;
-}
-
-.img-pair img {
-    width: 50%;
-    height: auto;
-}
-
-.caption {
-    text-align: center;
-    padding: 10px;
-}
-
-button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 .contact-container > div > form {
     display: flex;
     flex-direction: column;
