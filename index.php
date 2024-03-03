@@ -123,6 +123,9 @@
                 <div class="caption">Project 3 Before and After</div>
             </div>
         </div>
+        <button id="prevBtn" onclick="prevSlide()">Previous</button>
+        <button id="nextBtn" onclick="nextSlide()">Next</button>
+        <script src="script.js"></script>
 
         <main class="contact-container" id="contact">
             <div>
