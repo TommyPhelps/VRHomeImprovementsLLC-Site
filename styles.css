@@ -127,9 +127,14 @@ img {
     border-radius: 10px;
 }
 
-#carouselExampleControls {
+.img-carousel {
     padding: 50px 0;
 }
+
+.img-carousel > h2 {
+    text-align: center;
+}
+
 
 #carouselExampleControls .carousel-item .d-flex {
     flex-wrap: wrap;
