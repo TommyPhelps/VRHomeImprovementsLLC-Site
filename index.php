@@ -146,8 +146,10 @@
             <div class="review-container">
                 <div>
                     <img src="images/bJohnson.jpg" alt="Image of a woman">
-                    <p><strong>Bianca Johnson</strong></p>
-                    <p>December 4, 2019</p>
+                    <div>
+                        <p><strong>Bianca Johnson</strong></p>
+                        <p>December 4, 2019</p>
+                    </div>
                 </div>
                 <p>Such a hard working group and they do such a great job.</p>
             </div>

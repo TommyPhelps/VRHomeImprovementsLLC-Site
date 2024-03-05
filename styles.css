@@ -46,6 +46,7 @@ img {
 .about *,
 .services *,
 .img-carousel *,
+.reviews-container *,
 .contact-container *,
 footer p {
     margin: 0;
@@ -153,6 +154,38 @@ footer p {
 #carouselExampleControls .carousel-item img {
     height: 800px;
     object-fit: cover;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 20%;
+}
+
+.reviews-container > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #E0E0E0;
+}
+
+.review-container > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.review-container > div > img {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
 }
 
 main.contact-container {
