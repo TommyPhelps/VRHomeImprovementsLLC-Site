@@ -19,6 +19,7 @@
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#projects">Projects</a>
+                <a href="#reviews">Reviews</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
