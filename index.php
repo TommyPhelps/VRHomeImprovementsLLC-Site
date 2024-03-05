@@ -150,7 +150,7 @@
                     <p>December 4, 2019</p>
                 </div>
                 <p>Such a hard working group and they do such a great job.</p>
-            <div>
+            </div>
         </div>
 
         <main class="contact-container" id="contact">
