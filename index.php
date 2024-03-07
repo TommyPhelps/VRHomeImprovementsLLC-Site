@@ -102,6 +102,12 @@
             </ul>
         </div>
 
+        <div class="projects" id="projects">
+            <div class="project"><img src="images/project1_before.jpg" alt="Project 1's before photo">
+            <div class="project"><img src="images/project2_before.jpg" alt="Project 2's before photo">
+            <div class="project"><img src="images/project3_before.jpg" alt="Project 3's before photo">
+        </div>
+
         <div class="reviews-container" id="reviews">
             <h2>Reviews</h2>
             <div class="review-container">
