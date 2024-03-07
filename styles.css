@@ -127,6 +127,13 @@ img {
     border-radius: 10px;
 }
 
+.project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, 100px);
+}
+
 .reviews-container {
     display: flex;
     flex-direction: column;
