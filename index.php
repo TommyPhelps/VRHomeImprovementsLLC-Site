@@ -47,7 +47,7 @@
             </div>
 
             <div>
-                <h3>Why Choose Us?</h3>
+                <h2>Why Choose Us?</h2>
                 <ul>
                     <div>
                         <li>Expertise and Experience:</li>
