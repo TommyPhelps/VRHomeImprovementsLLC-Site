@@ -145,7 +145,7 @@
 
         <footer>
             <div class="social-links">
-                <a href="https://www.facebook.com/vrhomeimprovementsllc/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.facebook.com/vrhomeimprovementsllc/">Facebook</a>
             </div>
             <p>&copy; 2024 VR Home Improvements LLC. All rights reserved.</p>
         </footer>
