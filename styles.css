@@ -17,13 +17,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #EBEBEB;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
 }
 
 .links-container {
