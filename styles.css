@@ -32,12 +32,13 @@ nav {
 }
 
 a {
-    color: #2978A0;
+    color: #4B8695;
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
+    color: #61A0AF;
     text-decoration: underline;
 }
 
@@ -134,11 +135,22 @@ img {
     padding: 50px 10%;
 }
 
-.project {
+.projects-container > h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 1fr;
     gap: 10px;
-    grid-auto-rows: minmax(100px, 100px);
+}
+
+.projects > div > img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 100%;
 }
 
 .reviews-container {
