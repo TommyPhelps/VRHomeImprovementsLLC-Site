@@ -111,6 +111,13 @@
             </div>
         </div>
 
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalBefore" src="" alt="Before Construction Image">
+            <img class="modal-content" id="modalAfter" src="" alt="After Construction Image">
+        </div>
+
+
         <div class="reviews-container" id="reviews">
             <h2>Reviews</h2>
             <div class="review-container">
