@@ -154,28 +154,12 @@ img {
     border-radius: 10px;
 }
 
-.projects-container {
-    background-color: #EBEBEB;
-    padding: 50px 10%;
-}
-
-.projects-container > h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 10px;
-}
-
 .project {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     width: 100%;
-    padding-top: 100%; /* Makes the element a square */
+    padding-top: calc(100% - 30px);
     background-color: #C2C2C2;
 }
 
@@ -187,6 +171,7 @@ img {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .modal {
@@ -207,19 +192,22 @@ img {
     text-align: center;
     color: white;
     z-index: 999;
+    padding-top: 30px;
 }
 
 .modal-content {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: calc(100vh - 60px);
+    width: auto;
+    height: auto;
     object-fit: contain;
     border-radius: 10px;
 }
 
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 10px;
+    right: 10px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
@@ -233,6 +221,22 @@ img {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+.projects-container {
+    background-color: #EBEBEB;
+    padding: 50px 10%;
+}
+
+.projects-container > h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
 }
 
 .reviews-container {
@@ -330,8 +334,7 @@ footer {
     }
 
     .projects {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 
     main.contact-container {

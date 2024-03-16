@@ -94,23 +94,22 @@
     <div class="projects-container" id="projects">
         <h2>Projects</h2>
         <div class="projects">
-            <div class="project" onclick="openModal('images/project1_before.jpg', 'images/project1_after.jpg')">
-                <img src="images/project1_before.jpg" alt="Project 1's before photo">
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1 photo">
             </div>
-            <div class="project" onclick="openModal('images/project2_before.jpg', 'images/project2_after.jpg')">
-                <img src="images/project2_before.jpg" alt="Project 2's before photo">
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2 photo">
             </div>
-            <div class="project" onclick="openModal('images/project3_before.jpg', 'images/project3_after.jpg')">
-                <img src="images/project3_before.jpg" alt="Project 3's before photo">
+            <div class="project">
+                <img src="images/project3.jpg" alt="Project 3 photo">
             </div>
         </div>
     </div>
 
-    <div id="myModal" class="modal" onclick="closeModal()">
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
         <div class="modal-content-container">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="modalBefore" src="" alt="Before Construction Image">
-            <img class="modal-content" id="modalAfter" src="" alt="After Construction Image">
+            <img class="modal-content" id="modalImg">
         </div>
     </div>
 
@@ -153,56 +152,6 @@
         <p>&copy; 2024 VR Home Improvements LLC. All rights reserved.</p>
     </footer>
 
-    <script>
-        var modal = document.getElementById("myModal");
-        var modalBefore = document.getElementById("modalBefore");
-        var modalAfter = document.getElementById("modalAfter");
-
-        var span = document.getElementsByClassName("close")[0];
-
-        function openModal(beforeImageSrc, afterImageSrc) {
-            modalBefore.src = beforeImageSrc;
-            modalAfter.src = afterImageSrc;
-            modal.style.display = "flex";
-            document.body.style.overflow = "hidden";
-            adjustModalImage();
-        }
-
-        function closeModal() {
-            modal.style.display = "none";
-            document.body.style.overflow = "";
-        }
-
-        span.onclick = closeModal;
-
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                closeModal();
-            }
-        }
-
-        function adjustModalImage() {
-            var windowHeight = window.innerHeight;
-            var windowWidth = window.innerWidth;
-            var modalContentContainer = document.querySelector(".modal-content-container");
-
-            if (modalBefore.naturalWidth > windowWidth || modalBefore.naturalHeight > windowHeight) {
-                var scaleFactor = Math.min(windowWidth / modalBefore.naturalWidth, windowHeight / modalBefore.naturalHeight);
-                var newWidth = modalBefore.naturalWidth * scaleFactor;
-                var newHeight = modalBefore.naturalHeight * scaleFactor;
-                modalContentContainer.style.width = newWidth + "px";
-                modalContentContainer.style.height = newHeight + "px";
-            } else {
-                modalContentContainer.style.width = "auto";
-                modalContentContainer.style.height = "auto";
-            }
-
-            modalContentContainer.style.top = "50%";
-            modalContentContainer.style.left = "50%";
-            modalContentContainer.style.transform = "translate(-50%, -50%)";
-        }
-
-        window.onresize = adjustModalImage;
-    </script>
+    <script src="fullImg.js"></script>
 </body>
 </html>
