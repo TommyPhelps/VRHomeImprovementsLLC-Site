@@ -41,6 +41,22 @@ img {
     width: 200px;
 }
 
+.cta-button {
+    background-color: #ED6624;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .prim-button {
     background-color: #ED6624;
     padding: 10px 20px;
