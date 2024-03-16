@@ -67,6 +67,10 @@ img {
     margin-bottom: 25px;
 }
 
+.hero > p {
+    margin-bottom: 10px;
+}
+
 .about {
     display: flex;
     flex-direction: row;
