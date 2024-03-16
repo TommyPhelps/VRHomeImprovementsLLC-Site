@@ -95,13 +95,40 @@
         <h2>Projects</h2>
         <div class="projects">
             <div class="project">
-                <img src="images/project1.jpg" alt="Project 1 photo">
+                <img src="images/project1.jpeg" alt="Project 1 photo">
             </div>
             <div class="project">
-                <img src="images/project2.jpg" alt="Project 2 photo">
+                <img src="images/project2.jpeg" alt="Project 2 photo">
             </div>
             <div class="project">
-                <img src="images/project3.jpg" alt="Project 3 photo">
+                <img src="images/project3.jpeg" alt="Project 3 photo">
+            </div>
+            <div class="project">
+                <img src="images/project4.jpeg" alt="Project 4 photo">
+            </div>
+            <div class="project">
+                <img src="images/project5.jpeg" alt="Project 5 photo">
+            </div>
+            <div class="project">
+                <img src="images/project6.jpeg" alt="Project 6 photo">
+            </div>
+            <div class="project">
+                <img src="images/project7.jpeg" alt="Project 7 photo">
+            </div>
+            <div class="project">
+                <img src="images/project8.jpeg" alt="Project 8 photo">
+            </div>
+            <div class="project">
+                <img src="images/project9.jpeg" alt="Project 9 photo">
+            </div>
+            <div class="project">
+                <img src="images/project10.jpeg" alt="Project 10 photo">
+            </div>
+            <div class="project">
+                <img src="images/project11.jpeg" alt="Project 11 photo">
+            </div>
+            <div class="project">
+                <img src="images/project12.jpeg" alt="Project 12 photo">
             </div>
         </div>
     </div>
