@@ -232,3 +232,40 @@ footer {
     color: white;
     margin-bottom: 20px;
 }
+
+@media (max-width: 1280px) {
+    .about {
+        padding: 50px 10%;
+    }
+
+    .reviews-container {
+        padding: 50px 10%;
+    }
+
+    main.contact-container {
+        padding: 50px 10%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services > ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+
+    main.contact-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 10%;
+    }
+    .contact-container > div {
+        margin: 0;
+        width: 100%;
+    }
+}
