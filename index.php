@@ -54,6 +54,8 @@
             <p>Embark on a journey of unparalleled craftsmanship with VR Home Improvements LLC, your trusted 
             partner for comprehensive construction services in Oklahoma. From groundbreaking ideas to structurally
             sound implementations, we bring dreams to life through meticulous construction and home improvement services.</p>
+
+            <button class="prim-button">Contact us</button>
         </div>
 
         <div class="about" id="about">
@@ -177,7 +179,7 @@
                     <input type="text" name="email" placeholder="Your email" required>
                     <input type="text" name="subject" placeholder="Subject">
                     <textarea name="message" placeholder="Your message" required></textarea>
-                    <button type="submit" name="Submit">Send</button>
+                    <button class="prim-button" type="submit" name="Submit">Send</button>
                 </form>
             </div>
         </main>

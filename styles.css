@@ -41,6 +41,17 @@ img {
     width: 200px;
 }
 
+.prim-button {
+    background-color: #ED6624;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
 .hero {
     padding: 10% 10%;
     font-size: 24px;
@@ -204,16 +215,6 @@ form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-form button {
-    background-color: #ED6624;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
 }
 
 footer {
