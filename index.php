@@ -131,9 +131,15 @@
         <div class="projects-container" id="projects">
             <h2>Projects</h2>
             <div class="projects">
-                <div class="project"><img src="images/project1_before.jpg" alt="Project 1's before photo"></div>
-                <div class="project"><img src="images/project2_before.jpg" alt="Project 2's before photo"></div>
-                <div class="project"><img src="images/project3_before.jpg" alt="Project 3's before photo"></div>
+                <div class="project" onclick="openModal('images/project1_before.jpg', 'images/project1_after.jpg')">
+                    <img src="images/project1_before.jpg" alt="Project 1's before photo">
+                </div>
+                <div class="project" onclick="openModal('images/project2_before.jpg', 'images/project2_after.jpg')">
+                    <img src="images/project2_before.jpg" alt="Project 2's before photo">
+                </div>
+                <div class="project" onclick="openModal('images/project3_before.jpg', 'images/project3_after.jpg')">
+                    <img src="images/project3_before.jpg" alt="Project 3's before photo">
+                </div>
             </div>
         </div>
 
