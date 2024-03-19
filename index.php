@@ -41,7 +41,7 @@
             <p>We believe in transparency, clear communication, and a client-centric approach. Our mission is to not 
             just build structures but to create homes that stand the test of time, reflecting the unique 
             personality and aspirations of our clients.</p>
-            <a href="about.html" class="sec-button">More about us</a>
+            <a href="about.php" class="sec-button">More about us</a>
         </div>
         <div>
             <h2>Why Choose Us?</h2>
