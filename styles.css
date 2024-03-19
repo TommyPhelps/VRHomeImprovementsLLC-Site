@@ -281,7 +281,7 @@ main.contact-container {
 
 .contact-container > div {
     flex: 1;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .contact-container > div > form {
@@ -297,6 +297,7 @@ form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
 }
 
 footer {
@@ -321,12 +322,6 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
-    .services > ul {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-}
 
 @media (max-width: 768px) {
     .about {
@@ -346,5 +341,12 @@ footer {
     .contact-container > div {
         margin: 0;
         width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services > ul {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 10px;
     }
 }
