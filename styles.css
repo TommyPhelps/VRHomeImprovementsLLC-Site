@@ -37,7 +37,7 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
+.logo-container > a > img {
     width: 200px;
 }
 
@@ -144,6 +144,10 @@ img {
     flex-direction: column;
     padding: 50px 10%;
     align-items: center;
+}
+
+.services > ul > div > img {
+    width: 200px;
 }
 
 .services > ul {
@@ -339,14 +343,33 @@ footer {
     }
 }
 
+@media (max-width: 1024px) {
+    .logo-container > a > img {
+        width: 150px;
+    }
+
+    .services > ul {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 10px;
+    }
+}
 
 @media (max-width: 768px) {
+    .logo-container > a > img {
+        width: 100px;
+    }
+
     .about {
         flex-direction: column;
     }
 
+    .services > ul {
+        grid-gap: 5px;
+    }
+
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 5px;
     }
 
     main.contact-container {
@@ -358,12 +381,5 @@ footer {
     .contact-container > div {
         margin: 0;
         width: 100%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .services > ul {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        grid-gap: 10px;
     }
 }
