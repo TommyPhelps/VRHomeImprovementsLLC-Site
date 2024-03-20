@@ -12,6 +12,9 @@
         <div class="logo-container">
             <a href=""><img src="images/company-logo.png" alt="A company logo with company initials next to a house"></a>
         </div>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span class="hamburger"></span>
+        </button>
         <div class="links-container">
             <a href="#home">Home</a>
             <a href="#about">About</a>
@@ -183,6 +186,14 @@
         <p>&copy; 2024 VR Home Improvements LLC. All rights reserved.</p>
     </footer>
 
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content-container">
+            <img class="modal-content" id="modalImg">
+        </div>
+    </div>
+
+    <script src="hamburgerMenu.js"</script>
     <script src="fullImg.js"></script>
 </body>
 </html>
