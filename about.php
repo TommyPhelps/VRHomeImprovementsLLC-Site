@@ -50,5 +50,12 @@
             team keeps the work atmosphere vibrant, making each day enjoyable as we bring homes to life.</p>
         </div>
     </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/vrhomeimprovementsllc/">Facebook</a>
+        </div>
+        <p>&copy; 2024 VR Home Improvements LLC. All rights reserved.</p>
+    </footer>
 </body>
 </html>
