@@ -27,9 +27,9 @@
 
     <div class="hero" id="home">
         <h1>Welcome to VR Home Improvements LLC - Elevating Homes and Spaces in Oklahoma</h1>
-        <p>Embark on a journey of unparalleled craftsmanship with VR Home Improvements LLC, your trusted 
-        partner for comprehensive construction services in Oklahoma. From groundbreaking ideas to structurally
-        sound implementations, we bring dreams to life through meticulous construction and home improvement services.</p>
+        <p>VR Home Improvements is a construction business dedicated to transforming houses into dream homes. We 
+        specialize in quality renovations, remodels, and construction projects to enhance and add value to your 
+        living spaces.</p>
         <a href="#contact"class="cta-button">Contact us</a>
     </div>
 

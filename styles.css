@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+p {
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
 body {
     font-size: 16px;
     display: flex;
@@ -89,6 +94,7 @@ a:hover {
 }
 
 .cta-button:hover {
+    background-color: #C2460B;
     text-decoration: none;
     color: white;
 }
@@ -102,6 +108,10 @@ a:hover {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+.prim-button:hover {
+    background-color: #C2460B;
 }
 
 .sec-button {
@@ -136,10 +146,6 @@ a:hover {
     margin-bottom: 25px;
 }
 
-.hero > p {
-    margin-bottom: 10px;
-}
-
 .about {
     display: flex;
     flex-direction: row;
@@ -151,10 +157,6 @@ a:hover {
 
 .about > div > h2 {
     margin-bottom: 20px;
-}
-
-.about > div > p {
-    margin-bottom: 10px;
 }
 
 .about > div > ul {
@@ -173,6 +175,10 @@ a:hover {
 
 .about > div > ul > div > li {
     font-weight: bold;
+}
+
+.about > div > ul > div > p {
+    margin-bottom: 0;
 }
 
 .services {
@@ -312,6 +318,11 @@ a:hover {
     background-color: #E0E0E0;
 }
 
+.review-container > p,
+.review-container > div > div > p {
+    margin-bottom: 0;
+}
+
 .review-container > div {
     display: flex;
     align-items: center;
@@ -349,9 +360,14 @@ main.contact-container {
     height: 100%;
     border: 0;
 }
+
 .contact-container > div {
     flex: 1;
     max-width: 100%;
+}
+
+.contact-container > div > p {
+    margin-bottom: 0;
 }
 
 .contact-container > div > form {
@@ -375,6 +391,10 @@ footer {
     text-align: center;
     color: white;
     background-color: #272932;
+}
+
+footer > p {
+    margin-bottom: 0;
 }
 
 .social-links > a {
@@ -404,6 +424,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+    p {
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
     .menu-toggle {
         display: block;
     }
@@ -441,8 +466,13 @@ footer {
     .menu-open .links-container {
         display: flex;
     }
+
     .logo-container > a > img {
         width: 100px;
+    }
+
+    .hero {
+        font-size: 18px;
     }
 
     .about {
