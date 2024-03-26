@@ -169,12 +169,13 @@
             </div>
         </div>
         <div>
-            <form class="contact-form" action="contactForm.php" method="post">
-                <input type="text" name="name" placeholder="Your name" required>
-                <input type="text" name="email" placeholder="Your email" required>
+            <form class="contact-form" name="contact" method="POST" netlify>
+                <input type="text" name="name" placeholder="Your name *" required>
+                <input type="text" name="phone" placeholder="Your phone number">
+                <input type="text" name="email" placeholder="Your email *" required>
                 <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button class="prim-button" type="submit" name="Submit">Send</button>
+                <textarea name="message" placeholder="Your message *" required></textarea>
+                <button class="prim-button" type="submit">Send</button>
             </form>
         </div>
     </main>
